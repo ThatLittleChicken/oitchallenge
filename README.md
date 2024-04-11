@@ -7,8 +7,8 @@ The program assumes that the input are valid roman numerals and is under what th
 correctly (3999).
 
 ## Usage
-To use the program, simply execute it and type in a valid decimal / roman numeral and hit enter. The program will print 
-the output. 
+To use the program in windows, simply run it in command prompt e.g. `roman_to_decimal.exe` type in a valid decimal / 
+roman numeral and hit enter. The program will print the output. 
 
 ## Thought Process
 ### Roman Numeral to Decimal

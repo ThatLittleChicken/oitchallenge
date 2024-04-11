@@ -7,6 +7,9 @@ using std::string, std::to_string;
 #include <unordered_map>
 using std::unordered_map;
 
+#include <cmath>
+using std::pow;
+
 int main() {
     string input;
     string roman;
