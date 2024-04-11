@@ -7,7 +7,7 @@ The program assumes that the input are valid roman numerals and is under what th
 correctly (3999).
 
 ## Usage
-To use the program in windows, simply run it in command prompt e.g. `roman_to_decimal.exe` type in a valid decimal / 
+To use the program in windows, simply run it in command prompt e.g. `roman_to_decimal.exe`, type in a valid decimal / 
 roman numeral and hit enter. The program will print the output. 
 
 ## Thought Process
@@ -37,8 +37,8 @@ remaining letters that represent it's `10^m`.
 - When `n` is less than 4 and more than 0, we also use a loop to concat the letters that represent it's `10^m` to add 
 value.
 
-As we also have to iterate through the length of the decimal input the best is O(n) (albeit max length of 4). The loop 
-for adding values will be a max of three and is basically constant.
+As we also have to iterate through the length of the decimal input and the value doesn't matter, it's O(log n) 
+(albeit max length of 4). The loop for adding values will be a max of three and is basically constant.
 
 ### Others
 Time spent: ~3hrs
