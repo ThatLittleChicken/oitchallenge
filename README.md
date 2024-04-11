@@ -39,3 +39,6 @@ value.
 
 As we also have to iterate through the length of the decimal input the best is O(n) (albeit max length of 4). The loop 
 for adding values will be a max of three and is basically constant.
+
+### Others
+Time spent: ~3hrs
